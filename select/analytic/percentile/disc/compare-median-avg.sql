@@ -5,4 +5,3 @@ select
    avg            (                            val_two) mean_val_two
 from
    tq84_p;
-
