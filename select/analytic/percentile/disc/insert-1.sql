@@ -1,0 +1,11 @@
+insert into tq84_p values ('foo',  0,       1);
+insert into tq84_p values ('foo',  1,       7);
+insert into tq84_p values ('foo',  2,       3);
+insert into tq84_p values ('foo',  3,       3);
+insert into tq84_p values ('foo',  4,       4);
+insert into tq84_p values ('foo',  5,      10);
+insert into tq84_p values ('foo',  6,      13);
+insert into tq84_p values ('foo',  7,      11);
+insert into tq84_p values ('foo',  8,      14);
+insert into tq84_p values ('foo',  9,      13);
+insert into tq84_p values ('foo', 10, 9999999);
