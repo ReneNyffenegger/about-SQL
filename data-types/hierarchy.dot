@@ -1,0 +1,210 @@
+// vi: foldmethod=marker foldmarker={{{,}}}
+digraph SQL_DATATYPES {
+
+   root [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td><font point-size='19'><b>SQL Data Types</b></font></td></tr>
+     </table>
+   >]; // }}}
+
+   composite [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Composite data types</td></tr>
+     </table>
+   >]; // }}}
+
+   predefined [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td><b>Predefined</b> data types</td></tr>
+     </table>
+   >]; // }}}
+
+   numeric [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='1' cellborder='0'>
+       <tr><td align='left'>Numeric</td></tr>
+     </table>
+   >]; // }}}
+
+   numeric_excact [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1' cellspacing='0'>
+       <tr><td align='left' colspan='2'>Exact</td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>NUMERIC</font></td><td align='left'></td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>DECIMAL(p,s)</font></td><td align='left'><font point-size='8'><font face='Courier'>p</font> digits, <font face='Courier'>s</font> decimals</font></td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>SMALLINT</font></td><td align='left'><font point-size='8'>2 byte (signed short)</font></td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>INT/INTEGER</font></td><td align='left'><font point-size='8'>4 byte (signed int)</font></td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>BIGINT</font></td><td></td></tr>
+     </table>
+   >]; // }}}
+
+   numeric_approximate [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1' cellspacing='0'>
+       <tr><td align='left'>Approximate</td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>FLOAT</font></td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>REAL</font></td></tr>
+       <tr><td align='left'><font point-size='8' face='Courier'>DOUBLE PRECISION</font></td></tr>
+     </table>
+   >]; // }}}
+
+   string [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>String</td></tr>
+     </table>
+   >]; // }}}
+
+   string_blob [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td align='left'><font face='Courier'>BLOB</font></td></tr>
+     </table>
+   >]; // }}}
+
+   character [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Character</td></tr>
+     </table>
+   >]; // }}}
+
+   character_fixed [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1' cellspacing='0'>
+       <tr><td align='left'>Fixed</td></tr>
+       <tr><td align='left'><font face='Courier' point-size='8'>CHAR(n)</font></td></tr>
+     </table>
+   >]; // }}}
+
+   character_varying [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1' cellspacing='0'>
+       <tr><td align='left'>varying</td></tr>
+       <tr><td align='left'><font face='Courier' point-size='8'>VARCHAR(n)</font></td></tr>
+       <tr><td align='left'><font face='Courier' point-size='8'>TEXT</font></td></tr>
+     </table>
+   >]; // }}}
+
+   clob [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td><font face='Courier'>CLOB</font></td></tr>
+     </table>
+   >]; // }}}
+
+   datetime [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Datetime</td></tr>
+     </table>
+   >]; // }}}
+
+   date [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Date</td></tr>
+     </table>
+   >]; // }}}
+
+   time [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Time</td></tr>
+     </table>
+   >]; // }}}
+
+   timestamp [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Timestamp</td></tr>
+     </table>
+   >]; // }}}
+
+   boolean [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Boolean</td></tr>
+     </table>
+   >]; // }}}
+
+   interval [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>Interval</td></tr>
+     </table>
+   >]; // }}}
+
+   udt [ // {{{
+     shape = plaintext
+     color = "#cccccc"
+     label = <
+     <table border='0' cellborder='1'>
+       <tr><td>User-defined types (UDT)</td></tr>
+     </table>
+   >]; // }}}
+
+   root -> composite;
+   root -> predefined;
+
+   predefined -> numeric;
+      numeric -> numeric_excact;
+      numeric -> numeric_approximate;
+
+   predefined -> string;
+      string -> string_blob;
+      string -> character;
+        character -> character_fixed;
+        character -> character_varying;
+        character -> clob;
+
+   predefined -> datetime;
+      datetime -> date;
+      datetime -> time;
+      datetime -> timestamp;
+
+   predefined -> boolean;
+   predefined -> interval;
+
+   root -> udt;
+
+}
