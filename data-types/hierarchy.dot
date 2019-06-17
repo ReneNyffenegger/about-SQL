@@ -10,12 +10,13 @@ digraph SQL_DATATYPES {
      </table>
    >]; // }}}
 
-   composite [ // {{{
+   constructed [ // {{{
      shape = plaintext
      color = "#cccccc"
      label = <
      <table border='0' cellborder='1'>
-       <tr><td>Composite data types</td></tr>
+       <tr><td align=left>Constructed data types</td></tr>
+       <tr><td align=left>A.k.a composite data types</td></tr>
      </table>
    >]; // }}}
 
@@ -183,7 +184,7 @@ digraph SQL_DATATYPES {
      </table>
    >]; // }}}
 
-   root -> composite;
+   root -> constructed;
    root -> predefined;
 
    predefined -> numeric;
